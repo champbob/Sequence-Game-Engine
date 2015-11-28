@@ -1,0 +1,23 @@
+#comments
+%KID:Person:AnimationFrames/:
+%LEAF:Leaf:AnimationFrames/Nikki/Leaf/:
+%BRICK:Brick:AnimationFrames/Nikki/Brick/:
+%SACK:Sack:AnimationFrames/Nikki/Flour/:
+!a:
+!b:
+!c:
+!d:
+&a:GRAPHIC:MyKid: KID :0:0:.5:a1:12:
+&b:GRAPHIC:NLeaf: LEAF :640:0:.5:b1:14:
+&c:GRAPHIC:NBrick: BRICK :0:480:.5:c1:10:
+&d:GRAPHIC:NFlour: SACK :640:480:.5:d1:9:
+END
+# The above line ends the input (only viable after starting to input class objects
+# This is the template:
+# # = COMMENT
+# % = BITMAP LOADING (nameofdeclaration:nameoffile:directory:)
+# ! = LAYER NAME DECLARATION (sorted BY ORDER INPUT)
+# @ = INTERACTIVE LAYER NAME (must be of ones already declared or to be declared. WILL NOT CHECK IF WRONG)
+# & = OBJECT DECLARATION (layer:SpriteType:nameofSprite: nameofBitmap nameofBitmap2 :xinit:yinit:scale:objnum:fps:)
+# E = END INPUT
+# 

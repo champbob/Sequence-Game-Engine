@@ -1,0 +1,26 @@
+#comments
+%KID:Person:AnimationFrames/:
+%LEAF:Leaf:AnimationFrames/Nikki/Leaf/:
+%BRICK:Brick:AnimationFrames/Nikki/Brick/:
+%SACK:Sack:AnimationFrames/Nikki/Flour/:
+!a:
+!b:
+!c:
+!d:
+&a:GRAPHIC:MyKid: KID :0:0:1:a1:12:
+&b:GRAPHIC:NLeaf: LEAF :640:0:1:b1:14:
+&c:GRAPHIC:NBrick: BRICK :0:480:1:c1:10:
+&d:GRAPHIC:NFlour: SACK :640:480:1:d1:9:
+>KID:SIMPLE
+END
+# The above line ends the input (only viable after starting to input class objects
+# This is the template:
+# # = COMMENT
+# % = BITMAP LOADING (nameofdeclaration:nameoffile:directory:)
+# ! = LAYER NAME DECLARATION (sorted BY ORDER INPUT)
+# @ = INTERACTIVE LAYER NAME (must be of ones already declared or to be declared. WILL NOT CHECK IF WRONG)
+# & = OBJECT DECLARATION (layer:SpriteType:nameofSprite: nameofBitmap nameofBitmap2 :xinit:yinit:scale:objnum:fps:)
+# > = CONTROLLER DECLARATION (NameofSpriteControlled:ControllerType:)
+#	**NameofSpriteControlled -- if not used in another sprite, controls nothing
+# E = END INPUT
+# 

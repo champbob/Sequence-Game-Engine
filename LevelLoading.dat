@@ -1,0 +1,15 @@
+#comments
+%LOADING:Load:AnimationFrames/LoadScreen/:
+!a:
+&a:GRAPHIC:LoadScreen: LOADING :0:0:1:a1:12:
+END
+# The above line ends the input (only viable after starting to input class objects
+# This is the template:
+# # = COMMENT
+# % = BITMAP LOADING (nameofdeclaration:nameoffile:directory:)
+# ! = LAYER NAME DECLARATION (sorted BY ORDER INPUT)
+# @ = INTERACTIVE LAYER NAME (must be of ones already declared or to be declared. WILL NOT CHECK IF WRONG)
+# & = OBJECT DECLARATION (layer:SpriteType:nameofSprite: nameofBitmap nameofBitmap2 :xinit:yinit:scale:objnum:fps:)
+# > = CONTROLLER DECLARATION (ObjectNameControlled:ControllerType:ControlledBy)
+# E = END INPUT
+# 
